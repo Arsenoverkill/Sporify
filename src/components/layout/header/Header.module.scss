@@ -1,0 +1,26 @@
+.Header {
+	padding: 15px 0;
+	.content {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.logo {
+			margin: 7px 0;
+			a {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #fff;
+				svg {
+					width: 40px;
+					height: 40px;
+				}
+			}
+		}
+		.search {
+		}
+		.auth {
+		}
+	}
+}
